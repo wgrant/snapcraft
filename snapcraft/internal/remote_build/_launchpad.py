@@ -88,7 +88,7 @@ class LaunchpadClient:
         architectures: Sequence[str],
         git_branch: str = "master",
         core18_channel: str = "stable",
-        snapcraft_channel: str = "stable",
+        snapcraft_channel: str = "4.x/stable",
         deadline: int = 0,
         git_class: Type[Git] = Git,
         running_snapcraft_version: str = snapcraft.__version__,
