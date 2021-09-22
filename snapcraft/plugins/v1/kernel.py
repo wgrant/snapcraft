@@ -78,6 +78,7 @@ default_kernel_image_target = {
     "arm64": "Image.gz",
     "powerpc": "uImage",
     "ppc64el": "vmlinux.strip",
+    "riscv64": "Image.gz",
     "s390x": "bzImage",
 }
 

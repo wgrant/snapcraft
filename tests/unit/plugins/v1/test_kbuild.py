@@ -296,7 +296,7 @@ ACCEPT=n
         self.assertThat(raised.base, Equals("unsupported-base"))
 
 
-@pytest.mark.parametrize("deb_arch", ["armhf", "arm64", "i386", "ppc64el"])
+@pytest.mark.parametrize("deb_arch", ["armhf", "arm64", "i386", "ppc64el", "riscv64"])
 @mock.patch("subprocess.check_call")
 def test_cross_compile(mock_check_call, monkeypatch, mock_run, deb_arch):
     monkeypatch.setattr(snapcraft.project.Project, "is_cross_compiling", True)

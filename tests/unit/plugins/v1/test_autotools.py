@@ -432,6 +432,7 @@ class AutotoolsPluginTestCase(PluginsV1BaseTestCase):
         ("i386", "i386-linux-gnu"),
         ("amd64", "x86_64-linux-gnu"),
         ("ppc64el", "powerpc64le-linux-gnu"),
+        ("riscv64", "riscv64-linux-gnu"),
     ],
 )
 @mock.patch.object(autotools.AutotoolsPlugin, "run")

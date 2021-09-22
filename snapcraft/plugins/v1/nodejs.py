@@ -63,6 +63,7 @@ _NODEJS_ARCHES = {
     "armhf": "armv7l",
     "arm64": "arm64",
     "ppc64el": "ppc64le",
+    "riscv64": "riscv64",
     "s390x": "s390x",
 }
 _YARN_LATEST_URL = "https://yarnpkg.com/latest.tar.gz"

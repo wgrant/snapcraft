@@ -44,6 +44,7 @@ _NODE_ARCH_FROM_SNAP_ARCH = {
     "armhf": "armv7l",
     "arm64": "arm64",
     "ppc64el": "ppc64le",
+    "riscv64": "riscv64",
     "s390x": "s390x",
 }
 _NODE_ARCH_FROM_PLATFORM = {"x86_64": {"32bit": "x86", "64bit": "x64"}}

@@ -190,6 +190,7 @@ class RustPlugin(PluginV1):
             "i386": "i686-{}-{}",
             "amd64": "x86_64-{}-{}",
             "ppc64el": "powerpc64le-{}-{}",
+            "riscv64": "riscv64gc-{}-{}",
             "s390x": "s390x-{}-{}",
         }
         rust_target = targets.get(self.project.deb_arch)

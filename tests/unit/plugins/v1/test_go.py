@@ -898,6 +898,7 @@ class GoPluginUnsupportedBase(PluginsV1BaseTestCase):
         ("i386", "386"),
         ("amd64", "amd64"),
         ("ppc64el", "ppc64le"),
+        ("riscv64", "riscv64"),
     ],
 )
 def test_cross_compile(monkeypatch, tmp_work_path, mock_run, deb_arch, go_arch):

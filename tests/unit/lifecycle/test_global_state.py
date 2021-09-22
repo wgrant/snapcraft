@@ -63,7 +63,7 @@ class TestGlobalState(TestCase):
 
         # Avoid unnecessary calls to info.
         channel_map = []
-        for arch in ("amd64", "i386", "s390x", "arm64", "armhf", "ppc64el"):
+        for arch in ("amd64", "i386", "s390x", "arm64", "armhf", "ppc64el", "riscv64"):
             channel_map.append(
                 {
                     "channel": {

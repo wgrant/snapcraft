@@ -662,6 +662,7 @@ class FakeBaseEnvironment(fixtures.Fixture):
         ppc64le="lib64/ld64.so.2",
         ppc="lib/ld-linux.so.2",
         x86_64="lib64/ld-linux-x86-64.so.2",
+        riscv64="lib/ld-linux-riscv64-lp64d.so.1",
         s390x="lib/ld64.so.1",
     )
 

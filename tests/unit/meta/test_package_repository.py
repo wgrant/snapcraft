@@ -40,7 +40,7 @@ def test_apt_name():
 
 
 @pytest.mark.parametrize(
-    "arch", ["amd64", "armhf", "arm64", "i386", "ppc64el", "riscv", "s390x"]
+    "arch", ["amd64", "armhf", "arm64", "i386", "ppc64el", "riscv64", "s390x"]
 )
 def test_apt_valid_architectures(arch):
     package_repo = PackageRepositoryApt(

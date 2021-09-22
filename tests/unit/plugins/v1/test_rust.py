@@ -147,6 +147,7 @@ class TestRustPluginCrossCompile:
         ("i386", dict(deb_arch="i386", target="i686-unknown-linux-gnu")),
         ("x86_64", dict(deb_arch="amd64", target="x86_64-unknown-linux-gnu")),
         ("ppc64le", dict(deb_arch="ppc64el", target="powerpc64le-unknown-linux-gnu")),
+        ("riscv64", dict(deb_arch="riscv64", target="riscv64gc-unknown-inux-gnu")),
         ("s390x", dict(deb_arch="s390x", target="s390x-unknown-linux-gnu")),
     ]
 

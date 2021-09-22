@@ -30,6 +30,7 @@ class TestFindMachine:
         ("arm64", dict(machine="arm64", expected_machine="aarch64")),
         ("ppc64el", dict(machine="ppc64el", expected_machine="ppc64le")),
         ("ppc", dict(machine="powerpc", expected_machine="ppc")),
+        ("riscv64", dict(machine="riscv64", expected_machine="riscv64")),
         ("s390x", dict(machine="s390x", expected_machine="s390x")),
     ]
 

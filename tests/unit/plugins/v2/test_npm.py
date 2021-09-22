@@ -60,6 +60,7 @@ class NpmPluginTest(TestCase):
             ("armhf", "armv7l"),
             ("arm64", "arm64"),
             ("ppc64el", "ppc64le"),
+            ("riscv64", "riscv64"),
             ("s390x", "s390x"),
         ]:
             self.useFixture(fixtures.EnvironmentVariable("SNAP_ARCH", snap_arch))

@@ -166,7 +166,7 @@ class WafPluginUnsupportedBase(PluginsV1BaseTestCase):
         )
 
 
-@pytest.mark.parametrize("deb_arch", ["armhf", "arm64", "i386", "ppc64el"])
+@pytest.mark.parametrize("deb_arch", ["armhf", "arm64", "i386", "ppc64el", "riscv64"])
 def test_cross_compile(monkeypatch, deb_arch):
     monkeypatch.setattr(Project, "is_cross_compiling", True)
 
