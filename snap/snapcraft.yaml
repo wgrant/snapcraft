@@ -46,7 +46,7 @@ parts:
 
   patchelf:
     plugin: autotools
-    source: https://github.com/snapcore/patchelf
+    source: https://github.com/wgrant/patchelf
     source-type: git
     source-branch: '0.9+snapcraft'
     autotools-configure-parameters:
